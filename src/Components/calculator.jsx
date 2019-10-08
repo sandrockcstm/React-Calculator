@@ -1,5 +1,4 @@
 import React from "react";
-import ReactFCCtest from "react-fcctest";
 import Formula from "./formula";
 import Display from "./display";
 import Buttons from "./buttons";
@@ -152,7 +151,6 @@ export default class Calculator extends React.Component {
   render() {
     return (
       <div>
-        <ReactFCCtest />
         <div className="col-md-6" />
         <div className="container col-md-3">
           <div className="row">
